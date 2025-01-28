@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>receitas</title>
+    <title>Receitas</title>
 </head>
 <body>
     <main class="container">
-            <h1>Buscador de Receitas</h1>
-            <form>
-                <input type="text" placeholder="Digite o ingrediente">
-                <button>Buscar</button>
-                <div class="loading"></div>
-                <div class="receitas"></div>
-                <div class="detalhes"></div>
-            </form>
+        <h1>Buscador de Receitas</h1>
+        <form class="formulario_busca">
+            <input type="text" placeholder="Digite o ingrediente" class="input_busca">
+            <button type="submit" class="busca">Buscar</button>
+        </form>
+        <div class="loading"></div>
+        <div class="receitas_lista"></div>
+        <div class="detalhes"></div>
     </main>
 </body>
+<script src="./script.js"></script>
 </html>
